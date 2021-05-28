@@ -1,0 +1,36 @@
+{
+	"name": "scary",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"circular-json": "^0.5.9",
+		"cookie-parser": "^1.4.4",
+		"crypto-js": "^3.1.9-1",
+		"discord-rich-presence": "0.0.8",
+		"discord.js": "^11.4.2",
+		"discord.rss": "^4.0.2",
+		"express": "^4.16.4",
+		"ffmpeg": "0.0.4",
+		"jquery": "^3.4.0",
+		"jsonfile": "^5.0.0",
+		"multer": "^1.4.1",
+		"mysql": "^2.16.0",
+		"node-opus": "^0.2.9",
+		"opusscript": "0.0.6",
+		"request": "^2.88.0",
+		"rss-parser": "^3.7.0",
+		"simple-youtube-api": "^5.1.1",
+		"striptags": "^3.1.1",
+		"tmi.js": "^1.4.2",
+		"twitch-api-v5": "^2.0.4",
+		"twitch-js": "^2.0.0-beta.30",
+		"ytdl-core": "^0.29.1"
+	}
+}

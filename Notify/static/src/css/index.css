@@ -1,0 +1,13 @@
+.col {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.card, .card * {
+	cursor: pointer;
+}
+
+.btn {
+	width: auto !important;
+	text-transform: inherit !important;
+}

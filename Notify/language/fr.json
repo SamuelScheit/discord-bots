@@ -1,0 +1,58 @@
+{
+	"thisLanguage": { "name": "Français", "flag": "🇫🇷", "short": "fr" },
+	"language": {
+		"en": { "name": "Anglaise", "flag": "🇬🇧" },
+		"es": { "name": "Espagnol", "flag": "🇪🇸" },
+		"de": { "name": "Allemand", "flag": "🇩🇪" },
+		"fr": { "name": "Français", "flag": "🇫🇷" }
+	},
+	"Interface": {
+		"noPermissionCommand": "Vous n'avez aucune permission pour exécuter cette commande!",
+		"role": "rôle",
+		"member": "Membre",
+		"name": "Nom",
+		"description": "Description",
+		"help": "Aidez-moi",
+		"command": "Commande",
+		"unkownCommand": "commande inconnue",
+		"back": "Dos",
+		"language": {
+			"name": "Langue",
+			"description": "Définissez votre langue"
+		},
+		"notify": {
+			"name": "Notifier",
+			"description": "Définir qui est notifié"
+		},
+		"events": {
+			"name": "Événements",
+			"description": "Définir les déclencheurs d'événements"
+		},
+		"cmd": {
+			"name": "Commandement",
+			"description": "Créez vos propres commandes"
+		},
+		"prefix": {
+			"name": "Préfixe",
+			"description": "Définissez votre préfixe de commande personnalisé"
+		}
+	},
+	"commands": {
+		"setup": {
+			"description": "Configurer le bot",
+			"chooseNotify": "Sélectionnez quelqu'un à notifier: ",
+			"successChangeLanguage": "Avec succès changé de langue à: ",
+			"chooseLanguage": "Choisissez votre langue"
+		},
+		"help": {
+			"description": "Lister toutes les commandes disponibles"
+		},
+		"clear": {
+			"sureDelete": "Êtes-vous sûr de vouloir supprimer tous les messages de ce canal?",
+			"description": "Supprime tous les messages"
+		},
+		"clean": {
+			"description": "Supprime tous les messages du bot"
+		}
+	}
+}

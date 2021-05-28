@@ -1,0 +1,58 @@
+{
+	"thisLanguage": { "name": "Deutsch", "flag": "🇩🇪", "short": "de" },
+	"language": {
+		"en": { "name": "Englisch", "flag": "🇬🇧" },
+		"es": { "name": "Spanisch", "flag": "🇪🇸" },
+		"de": { "name": "Deutsch", "flag": "🇩🇪" },
+		"fr": { "name": "Französisch", "flag": "🇫🇷" }
+	},
+	"Interface": {
+		"noPermissionCommand": "Du hast keine Berechtigung diesen Befel auszuführen!",
+		"role": "Rolle",
+		"member": "Nutzer",
+		"name": "Name",
+		"description": "Beschreibung",
+		"help": "Hilfe",
+		"command": "Befehl",
+		"unkownCommand": "Unbekanter Befel",
+		"back": "Zurück",
+		"language": {
+			"name": "Sprache",
+			"description": "Stelle deine Sprache ein"
+		},
+		"notify": {
+			"name": "Benachrichtigung",
+			"description": "Lege fest, wer benarichtigt wird"
+		},
+		"events": {
+			"name": "Ereignis",
+			"description": "Ereignisauslöser einstellen"
+		},
+		"cmd": {
+			"name": "Befehl",
+			"description": "Erstelle eigene Befehle"
+		},
+		"prefix": {
+			"name": "Präfix",
+			"description": "Stelle eine benutzerdefiniertes Befehlspräfix ein"
+		}
+	},
+	"commands": {
+		"setup": {
+			"chooseNotify": "Wähle jemand aus, der benachrichtigt werden soll",
+			"successChangeLanguage": "Erfolgreich Sprache geändert zu: ",
+			"chooseLanguage": "Wähle deine Sprache",
+			"description": "Richtet den Bot ein"
+		},
+		"help": {
+			"description": "Listet alle verfügbaren Befehle auf"
+		},
+		"clear": {
+			"sureDelete": "Bist du dir sicher, dass du alle Nachrichten in diesem Channel löschen möchtest?",
+			"description": "Löscht alle nachrichten"
+		},
+		"clean": {
+			"description": "Löscht alle Bot nachrichten"
+		}
+	}
+}

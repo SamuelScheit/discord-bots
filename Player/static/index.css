@@ -1,0 +1,7 @@
+.card-wrapper .card-rotating {
+	height: 25% !important;
+}
+
+.card {
+	cursor: pointer;
+}

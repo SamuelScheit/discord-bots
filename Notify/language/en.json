@@ -1,0 +1,58 @@
+{
+	"thisLanguage": { "name": "English", "flag": "🇬🇧", "short": "en" },
+	"language": {
+		"en": { "name": "English", "flag": "🇬🇧" },
+		"es": { "name": "Spain", "flag": "🇪🇸" },
+		"de": { "name": "German", "flag": "🇩🇪" },
+		"fr": { "name": "French", "flag": "🇫🇷" }
+	},
+	"Interface": {
+		"noPermissionCommand": "You have no permissions to execute this command!",
+		"role": "Role",
+		"member": "Member",
+		"name": "Name",
+		"description": "Description",
+		"help": "Help",
+		"command": "Command",
+		"unkownCommand": "Unkown Command",
+		"back": "Back",
+		"language": {
+			"name": "Language",
+			"description": "Set your language"
+		},
+		"notify": {
+			"name": "Notify",
+			"description": "Set who gets notified"
+		},
+		"events": {
+			"name": "Events",
+			"description": "Set event triggers"
+		},
+		"cmd": {
+			"name": "Command",
+			"description": "Create your own Commands"
+		},
+		"prefix": {
+			"name": "Prefix",
+			"description": "Set your custom command prefix"
+		}
+	},
+	"commands": {
+		"setup": {
+			"description": "Setup the bot",
+			"chooseNotify": "Select someone to notify: ",
+			"successChangeLanguage": "Successfully changed language to: ",
+			"chooseLanguage": "Choose your language"
+		},
+		"help": {
+			"description": "List all available commands"
+		},
+		"clear": {
+			"sureDelete": "Are you sure you want to delete all messages in this channel?",
+			"description": "Deletes all messages"
+		},
+		"clean": {
+			"description": "Deletes all Messages from the bot"
+		}
+	}
+}

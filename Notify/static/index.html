@@ -1,0 +1,191 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		/>
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.8/css/bootstrap-select.min.css"
+		/>
+		<link href="src/css/mdb.css" rel="stylesheet" />
+		<link rel="stylesheet" href="src/css/index.css" />
+		<meta charset="utf-8" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand navbar-dark primary-color">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<ul class="nav nav-tabs md-tabs primary-color m-0 p-0">
+				<li class="nav-item">
+					<a
+						class="nav-link active"
+						data-toggle="tab"
+						href="#command-overview"
+						>Bot</a
+					>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="tab" href="#follow-classic"
+						>Docs</a
+					>
+				</li>
+			</ul>
+		</nav>
+		<div class="container">
+			<div class="tab-content m-0 p-0">
+				<div class="tab-pane fade" id="commandLanguage">
+					<a
+						data-toggle="tab"
+						href="#commandOverview"
+						class="h2 btn btn-elegant"
+						><i class="fas fa-chevron-left"></i>
+						<span class="ln-back"></span
+					></a>
+					<h1 class="ln-language"></h1>
+					<select
+						id="languageSelect"
+						class="selectpicker"
+						
+						data-style="btn-primary"
+						data-size="5"
+					>
+					</select>
+				</div>
+				<div class="tab-pane fade" id="commandCreate">
+					<a
+						data-toggle="tab"
+						href="#commandOverview"
+						class="h2 btn btn-elegant"
+						><i class="fas fa-chevron-left"></i>
+						<span class="ln-back"></span
+					></a>
+					<br />
+					<div class="ln-">Trigger:</div>
+					<select
+						id="triggerSelect"
+						class="selectpicker"
+						multiple
+						data-style="btn-primary btn-lg p-2"
+						data-size="5"
+					>
+						<option>User joins the server</option>
+						<option>Message</option>
+						<option>User joins Voice Channel</option>
+					</select>
+					<div class="ln-">Action:</div>
+					<select
+						id="actionSelect"
+						class="selectpicker"
+						multiple
+						data-style="btn-primary btn-lg p-2"
+						data-size="5"
+					>
+						<option>Bot writes message</option>
+						<option>Add Role</option>
+					</select>
+					<div class="ln-">Select:</div>
+					<select
+						id="select"
+						class="selectpicker"
+						multiple
+						data-style="btn-primary btn-lg p-2"
+						data-size="5"
+					>
+						<option>previous User</option>
+						<option>User</option>
+						<option>Role</option>
+					</select>
+					<div class="ln-">User Select:</div>
+					<select
+						id="userSelect"
+						class="selectpicker"
+						multiple
+						data-style="btn-primary btn-lg p-2"
+						data-size="5"
+					>
+						<option>Flam3rboy#5979</option>
+						<option>syZ.SkyVapeQ#5252</option>
+						<option>syZ.GxdAim#2942</option>
+					</select>
+					<div class="ln-">Role Select:</div>
+					<select
+						id="roleSelect"
+						class="selectpicker"
+						multiple
+						data-style="btn-primary btn-lg p-2"
+						data-size="5"
+					>
+						<option>Leader</option>
+						<option>Support</option>
+						<option>Community</option>
+					</select>
+				</div>
+				<div class="tab-pane fade active show" id="commandOverview">
+					<div class="row">
+						<a
+							class="col-lg-4 col-sm-6 col"
+							data-toggle="tab"
+							href="#commandLanguage"
+						>
+							<div class="card card-cascade waves-light">
+								<div
+									class="view view-cascade gradient-card-header blue-gradient"
+								>
+									<h2 class="card-header-title">
+										<i class="fas fa-globe-africa"></i>
+										<span class="ln-language"> </span>
+									</h2>
+									<p class="card-header-subtitle mb-0">
+										<span class="ln-language-description">
+										</span>
+									</p>
+								</div>
+							</div>
+						</a>
+						<a
+							class="col-lg-4 col-sm-6 col"
+							data-toggle="tab"
+							href="#commandCreate"
+						>
+							<div class="card card-cascade waves-light">
+								<div
+									class="view view-cascade gradient-card-header blue-gradient"
+								>
+									<h2 class="card-header-title">
+										<i class="fas fa-terminal"></i>
+										<span class="ln-cmd"> </span>
+									</h2>
+									<p class="card-header-subtitle mb-0">
+										<span class="ln-cmd-description">
+										</span>
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script
+			type="text/javascript"
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+		></script>
+		<script
+			type="text/javascript"
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+		></script>
+		<script
+			type="text/javascript"
+			src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"
+		></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.8/js/bootstrap-select.min.js"></script>
+		<script type="text/javascript" src="src/js/mdb.js"></script>
+		<script src="src/js/index.js"></script>
+	</body>
+</html>
